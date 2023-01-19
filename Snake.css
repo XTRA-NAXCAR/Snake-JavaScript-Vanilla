@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #012030;
+    margin: 0;
+}
+.credits{
+    background: transparent;
+    display: inline-block;
+    position: absolute;
+    margin: 1em;
+    bottom: 0;
+}
+.credits::before{
+    font-family:'East Sea Dokdo', cursive;
+    content: "Created By Gus Gus";
+    color: #fff;
+    text-shadow:  0 0 0.5em #03e9f4,
+    0 0 1em #03e9f4,
+    0 0 2em #03e9f4,
+    0 0 3em #03e9f4;
+}
+.container{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+.container h1{
+    text-align: center;
+    font-size: 24em;
+    background:transparent ;
+    position: relative;
+    display: block;
+    font-family:'East Sea Dokdo', cursive;
+    margin: 0;
+    color: #fff;
+    text-shadow:  0 0 0.5em #03e9f4,
+    0 0 1em #03e9f4,
+    0 0 2em #03e9f4;
+}
+.play, .next{
+    position: relative;
+    margin-top: 1.5em;
+    font-family:'East Sea Dokdo', cursive;
+    font-size: 6em;
+    width: 2em;
+    height: 2em;
+    border-radius: 1em;
+    background: transparent;
+    border: transparent;
+    transition: all 1s;
+    color: #000000
+}
+.play:hover, .next:hover{
+    color: #fff;
+    text-shadow:  0 0 0.5em #23a2a8,
+    0 0 1em #23a2a8;
+}
+.center{
+    text-align: center;
+}
+.w{
+    text-align: center;
+    font-size: 7em;
+    display: block;
+   padding-top: 1em ;
+   font-family:'East Sea Dokdo', cursive;
+    margin: 0;
+    color: #fff;
+    text-shadow:  0 0 0.5em #03e9f4,
+    0 0 1em #03e9f4,
+    0 0 2em #03e9f4;
+}
+.asd{
+    font-size: 7em;
+    display: inline-block;
+    font-family:'East Sea Dokdo', cursive;
+    margin: 0;
+    color: #fff;
+    text-shadow:  0 0 0.5em #03e9f4,
+    0 0 1em #03e9f4,
+    0 0 2em #03e9f4;
+    margin: 1em;
+}
+.snake{
+    display: inline-block;
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    background: #03e9f4;
+    box-shadow:  0 0 0.5em #03e9f4,
+    0 0 1em #03e9f4,
+    0 0 2em #03e9f4;
+    border-radius: 1em;
+}
+.apple{
+    display: inline-block;
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    background: #f30404;
+    box-shadow:  0 0 0.5em #f30404,
+    0 0 1em #f30404,
+    0 0 2em #f30404;
+    border-radius: 1em ;
+}
